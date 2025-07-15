@@ -17,9 +17,6 @@ nba-fantasy-dashboard/
 ├── requirements.txt # Python dependencies
 └── README.md # This file
 
-bash
-Copy
-Edit
 
 ## 🚀 Setup
 
@@ -30,20 +27,16 @@ Edit
 Install dependencies:
 
 
-Copy
-Edit
+
 pip install -r requirements.txt
 Fetch and process NBA schedule data:
 
 
-Copy
-Edit
 python scripts/fetch_schedule.py
 python scripts/process_schedule.py
 Run the Streamlit dashboard:
 
-Copy
-Edit
+
 streamlit run app.py
 📌 Usage
 Use the sidebar to filter by team and week.
