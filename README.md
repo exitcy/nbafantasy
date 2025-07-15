@@ -1,33 +1,32 @@
-NBA Fantasy Dashboard
-A Streamlit dashboard to visualize how many games each NBA team plays per week during the 2023-24 regular season, including highlights for back-to-back games. Data is fetched from the NBA API and processed with pandas.
+# NBA Fantasy Dashboard
 
-Features
-Filter by team and week
+A **Streamlit dashboard** to visualize how many games each NBA team plays per week during the 2023-24 regular season, including highlights for back-to-back games. Data is fetched from the NBA API and processed with pandas.
 
-Table of games per week for each team
+## Features
+- ✅ Filter by team and week
+- ✅ Table of games per week for each team
+- ✅ Visual highlight for weeks with back-to-back games
 
-Visual highlight for weeks with back-to-back games
-
-Folder Structure
-graphql
-Copy
-Edit
+## 📁 Folder Structure
 nba-fantasy-dashboard/
-├── data/                     # CSV data files
-├── scripts/                  # Data fetching and processing scripts
-│   ├── fetch_schedule.py     # Fetches NBA schedule from nba_api
-│   └── process_schedule.py   # Processes schedule for weekly and back-to-back info
-├── app.py                    # Streamlit dashboard
-├── requirements.txt          # Python dependencies
-└── README.md                 # This file
-Setup
-Clone the repository and navigate to the project folder:
+├── data/ # CSV data files
+├── scripts/ # Data fetching and processing scripts
+│ ├── fetch_schedule.py # Fetches NBA schedule from nba_api
+│ └── process_schedule.py # Processes schedule for weekly and back-to-back info
+├── app.py # Streamlit dashboard
+├── requirements.txt # Python dependencies
+└── README.md # This file
 
 bash
 Copy
 Edit
-git clone <your-repo-url>
-cd nba-fantasy-dashboard
+
+## 🚀 Setup
+
+1. **Clone the repository and navigate to the project folder:**
+   ```bash
+   git clone <your-repo-url>
+   cd nba-fantasy-dashboard
 Install dependencies:
 
 bash
@@ -47,19 +46,21 @@ bash
 Copy
 Edit
 streamlit run app.py
-Usage
+📌 Usage
 Use the sidebar to filter by team and week.
 
 Yellow rows indicate weeks with at least one back-to-back game for that team.
 
-Notes
+📝 Notes
 Only regular season games are included (no playoffs).
 
 Data is for the 2023-24 NBA season.
 
-To update the data for a new season, change the SEASON constant in fetch_schedule.py and rerun the scripts.
+To update for a new season, change the SEASON constant in fetch_schedule.py and rerun the scripts.
 
-Requirements
+🐍 Requirements
 Python 3.8+
 
-See requirements.txt for the full package list.
+See requirements.txt for full package list.
+
+Enjoy your NBA Fantasy Dashboard! 🏀
