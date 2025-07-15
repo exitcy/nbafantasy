@@ -29,20 +29,19 @@ Edit
    cd nba-fantasy-dashboard
 Install dependencies:
 
-bash
+
 Copy
 Edit
 pip install -r requirements.txt
 Fetch and process NBA schedule data:
 
-bash
+
 Copy
 Edit
 python scripts/fetch_schedule.py
 python scripts/process_schedule.py
 Run the Streamlit dashboard:
 
-bash
 Copy
 Edit
 streamlit run app.py
